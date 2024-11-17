@@ -20,9 +20,13 @@
 
 10. Realmente [CTRL+Z] envía otro tipo de señal, `SIGSTOP`. Crea un proceso EN SEGUNDO PLANO que escriba "Terminado" después de 30 segundos. Envía esta señal al proceso mediante su PID y comprueba que no se escribe "Terminado". Finaliza reanudándolo.
 
-# BONUS: Descarga de ficheros
+## BONUS: Descarga de ficheros
 
-11. Muestra estas preguntas, que se encuentran subidas en la ruta `https://raw.githubusercontent.com/pabloibargon/uso-p6/refs/heads/main/practica6.md` usando el comando `curl`.
+11. Muestra estas preguntas usando el comando `curl`, que se encuentran subidas en la ruta
+
+  ```
+  https://raw.githubusercontent.com/pabloibargon/uso-p6/refs/heads/main/practica6.md
+  ```
 
 12. Prueba ahora con el comando `wget`. Explica la diferencia en el comportamiento por defecto de `wget` y `curl`.
 
