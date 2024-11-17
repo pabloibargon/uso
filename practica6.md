@@ -22,4 +22,8 @@
 
 # BONUS: Descarga de ficheros
 
-11. Muestra estas preguntas, que se encuentran subidas en la ruta
+11. Muestra estas preguntas, que se encuentran subidas en la ruta `https://raw.githubusercontent.com/pabloibargon/uso-p6/refs/heads/main/practica6.md` usando el comando `curl`.
+
+12. Prueba ahora con el comando `wget`. Explica la diferencia en el comportamiento por defecto de `wget` y `curl`.
+
+13. Consigue descargarlo a un fichero con `curl` usando la opción -o.
