@@ -16,13 +16,16 @@
 
 - El comando `true` no produce ninguna salida ni toma ninguna entrada o argumento y siempre termina exitosamente.
   Igualmente el comando `false` siempre termina con error.
-_________________________________________________________
+
+### Ejercicios
 
 1. Crear un fichero `resultados` con aquellas líneas del fichero `filtrar_datos` que cumplan
+
     - La linea comienza por 'A' (mayúscula o minúscula)
     - La linea termina en 3 dígitos
     - La linea se encuentra entre las últimas 30
-  Y después el contenido íntegro de todos los ficheros que comiencen por _datos_.
+
+    Y después el contenido íntegro de todos los ficheros que comiencen por _datos_.
 
 2. Tenemos un directorio `/home/secretario/agenda` con estos ficheros entre otros:
     - `Albacete`
@@ -41,15 +44,15 @@ _________________________________________________________
 
 3. Dada la siguiente estructura de directorios
 
-![directorios](directorios.drawio.svg)
+    ![](directorios.drawio.png)
 
-- Orden para cambiar de directorio desde el directorio verde hasta el amarillo utilizando una ruta relativa y utilizando una ruta absoluta.
-- Orden para cambiar de directorio desde el directorio morado hasta el rojo utilizando una ruta relativa y utilizando una ruta absoluta.
-- Te sitúas en el nodo morado. ¿Existe algún directorio al que hagamos referencia usando la siguiente expresión? Explica por qué o por qué no.
+    - Orden para cambiar de directorio desde el directorio verde hasta el amarillo utilizando una ruta relativa y utilizando una ruta absoluta.
+    - Orden para cambiar de directorio desde el directorio morado hasta el rojo utilizando una ruta relativa y utilizando una ruta absoluta.
+    - Te sitúas en el nodo morado. ¿Existe algún directorio al que hagamos referencia usando la siguiente expresión? Explica por qué o por qué no.
 
-  `
-  .././a/./b/../../c/a/??
-  `
+      `
+      .././a/./b/../../c/a/??
+      `
 
 4. La salida del comando `id` es la siguiente
 
@@ -66,17 +69,18 @@ _________________________________________________________
       que comando utilizarías para solucionarlo?
 
 5. Escribe la salida de los siguientes comandos:
-  - `` echo `true || echo "Correcto"  > fichero && echo "Incorrecto"` ``
-  - `` (false || echo "Incorrecto")  > fichero && echo "$Correcto" ``
-  - `` echo '$Incorrecto' | cat ``
-  - `` (echo "1" ; true || false || echo "2") && echo "3" ``
+
+    - `` echo `true || echo "Correcto"  > fichero && echo "Incorrecto"` ``
+    - `` (false || echo "Incorrecto")  > fichero && echo "$Correcto" ``
+    - `` echo '$Incorrecto' | cat ``
+    - `` (echo "1" ; true || false || echo "2") && echo "3" ``
 
 6. La salida del comando `ps` es la siguiente:
 
-```
+      ```
     PID TTY          TIME CMD
    4348 pts/0    00:00:00 bash
    4356 pts/0    00:00:00 ps
-```
+    ```
 
-Explica lo que sucede al utilizar el comando `kill -SIGKILL 4348`.
+    Explica lo que sucede al utilizar el comando `kill -SIGKILL 4348`.
